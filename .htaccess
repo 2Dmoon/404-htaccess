@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/(404|index|main|new|old).html
+RewriteRule ^.*$ /404.html [R=301]
